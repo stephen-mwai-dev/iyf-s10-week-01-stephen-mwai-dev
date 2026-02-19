@@ -1,7 +1,6 @@
 # Hi, I'm Stephen Mwai Njuguna 👋
 
 ## About Me
-- 🎓 I'm currently studying **Computer Programming** at **IYF**.
 - 🌱 I'm currently learning **Frontend Development (HTML, CSS, JavaScript)** and preparing for **Backend** development.
 - 👨‍💻 I'm deeply interested in **Data Analytics** and **Artificial Intelligence**.
 - 🤝 I'm looking to collaborate on beginner-friendly open source projects.
