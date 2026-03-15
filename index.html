@@ -3,51 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Site</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 700px;
-            margin: 50px auto;
-            padding: 0 20px;
-            line-height: 1.6;
-            color: #333;
-        }
-        h1 {
-            border-bottom: 2px solid #0366d6;
-            padding-bottom: 10px;
-        }
-        a {
-            color: #0366d6;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-    </style>
+    <title>Stephen Mwai Njuguna | Educator & Developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome! I'm Stephen Mwai Njuguna</h1>
 
-    <div class="section">
-        <h2>About Me</h2>
-        <p>Hi! I'm a student currently learning **Frontend Development** (HTML, CSS, and JavaScript). 
-            I am deeply interested in **Data Analytics and Artificial Intelligence**</p>
+    <div class="portfolio-container">
+        
+        <header class="profile-header">
+            <img src="https://i.pravatar.cc/200?img=47" alt="Stephen Mwai Njuguna" class="profile-img">
+            <div class="profile-info">
+                <p class="role">Frontend Developer • Data Analyst • Problem Solver</p>
+                <h1>Stephen Mwai Njuguna</h1>
+                <p class="bio">
+                    As an educator, I have always believed in unlocking human potential. Now, I apply that same passion to technology. 
+                    I am transitioning into Full-Stack Development and Data Analytics, driven by the desire to build AI-powered solutions that solve real-world problems.
+                </p>
+            </div>
+        </header>
+
+        <div class="main-layout">
+            
+            <aside class="sidebar">
+                <div class="card about-card">
+                    <h3>About Me</h3>
+                    <p>I leverage my background in education to break down complex problems into elegant, data-driven code. I am currently honing my skills in front-end architecture and data science.</p>
+                    <ul class="info-list">
+                        <li>📍 Kenyatta Road, Kiambu County, Kenya</li>
+                        <li>💼 <strong>Open to Opportunities</strong></li>
+                        <li>🎓 Educator turning Tech Innovator</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <main class="content-area">
+                
+                <input type="radio" name="tabs" id="tab-projects" checked>
+                <input type="radio" name="tabs" id="tab-resume">
+                <input type="radio" name="tabs" id="tab-contact">
+
+                <nav class="tabs-nav">
+                    <label for="tab-projects" class="tab-label">Projects</label>
+                    <label for="tab-resume" class="tab-label">Resume</label>
+                    <label for="tab-contact" class="tab-label">Contact</label>
+                </nav>
+
+                <section class="tab-content" id="content-projects">
+                    <div class="projects-grid">
+                        
+                        <article class="project-card">
+                            <div class="project-image-container">
+                                <img src="https://images.unsplash.com/photo-1590402494587-44b71d7772f6?auto=format&fit=crop&w=600&q=80" alt="Modern Olivine School Campus in Nyali">
+                            </div>
+                            <div class="project-info">
+                                <span class="project-category">Premier Education</span>
+                                <h3>Olivine School Nyali</h3>
+                                <p>Providing a world-class educational foundation in Mombasa. We are committed to nurturing academic excellence, holistic development, and leadership in a state-of-the-art learning environment.</p>
+                            </div>
+                        </article>
+                        
+                        
+
+                        <article class="project-card">
+                            <div class="project-image-container">
+                                <img src="https://images.unsplash.com/photo-1542332213-31f87348057f?auto=format&fit=crop&w=800&q=80" alt="Wonderscape Kenya Waterfall Adventure">
+                            </div>
+                            <div class="project-info">
+                                <span class="project-category">Tours & Expeditions</span>
+                                <h3>Wonderscape Kenya</h3>
+                                <p>Experience the unseen beauty of Kenya. From hidden tropical waterfalls to majestic savannahs, we curate unforgettable adventures that connect you deeply with nature and local culture.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+
+                <section class="tab-content" id="content-resume">
+                    <div class="card resume-card">
+                        <h3>Technical Arsenal</h3>
+                        <p class="resume-intro">Bridging the gap between educational methodology and technical execution.</p>
+                        
+                        <div class="skills-section">
+                            <h4>Development & Design</h4>
+                            <div class="skills-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Git & GitHub</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-section">
+                            <h4>Data Analytics & AI</h4>
+                            <div class="skills-tags">
+                                <span>Python</span>
+                                <span>SQL</span>
+                                <span>PowerBI</span>
+                                <span>Advanced Excel</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tab-content" id="content-contact">
+                    <div class="contact-grid">
+                        
+                        <div class="card contact-sidebar">
+                            <h3>Contact Info</h3>
+                            <ul class="contact-info-list">
+                                <li>
+                                    <span class="icon">✉️</span> 
+                                    <div class="info-details">
+                                        <strong>Email Me</strong>
+                                        <span>stephenmwai71@gmail.com</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="icon">📞</span> 
+                                    <div class="info-details">
+                                        <strong>Call Me</strong>
+                                        <span>+254702237633</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="icon">📍</span> 
+                                    <div class="info-details">
+                                        <strong>Address</strong>
+                                        <span>Kenyatta Road,</span>
+                                        <span>Kiambu County, Kenya</span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <h3 class="social-info-heading">Social Info</h3>
+                            <ul class="social-info-list">
+                                <li>
+                                    <a href="http://www.linkedin.com/in/stephen-njuguna-304bb4194" target="_blank" title="LinkedIn">
+                                        💼
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/stephen-mwai-dev" target="_blank" title="GitHub">
+                                        💻
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank" title="X (Twitter)">
+                                        𝕏
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="card contact-form-container">
+                            <h3>Let's Work Together.</h3>
+                            <p class="contact-intro">I am currently open to new opportunities, collaborations, and roles where I can bring my unique blend of education, data analysis, and web development to your team. Feel free to fill out the form below, and I will get back to you.</p>
+                            
+                            <form action="#" method="post" class="contact-form">
+                                <div class="form-group visually-hidden">
+                                    <label for="name">Name</label>
+                                </div>
+                                <div class="form-box">
+                                    <input type="text" id="name" name="name" placeholder="Name*" required>
+                                </div>
+                                
+                                <div class="form-group visually-hidden">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="form-box">
+                                    <input type="email" id="email" name="email" placeholder="Email*" required>
+                                </div>
+                                
+                                <div class="form-group visually-hidden">
+                                    <label for="subject">Subject</label>
+                                </div>
+                                <div class="form-box">
+                                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                                </div>
+                                
+                                <div class="form-group visually-hidden">
+                                    <label for="message">Message</label>
+                                </div>
+                                <div class="form-box message-box">
+                                    <textarea id="message" name="message" rows="8" placeholder="Message*" required></textarea>
+                                </div>
+                                
+                                <button type="submit" class="send-btn">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+        </div>
     </div>
 
-    <div class="section">
-        <h2>What I'm Learning</h2>
-        <ul>
-            <li>Git and GitHub for version control</li>
-            <li>Semantic HTML and Accessibility standards</li>
-            <li>Data analysis and visualization techniques</li>  
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Links</h2>
-        <ul>
-            <li><a href="https://github.com/stephen-mwai-dev">My GitHub Profile</a></li>
-        </ul>
-    </div>
 </body>
 </html>
